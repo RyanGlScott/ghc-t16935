@@ -10,5 +10,5 @@ A minimal reproduction of GHC #16935
 4. In `app/app.cabal`, change `lib` to `lib-core`
 5. `cabal new-build app`
 6. Witness linker error
-7. `cabal new-clean && cabal new-build`
+7. `cabal new-clean && cabal new-build app`
 8. Witness type error
